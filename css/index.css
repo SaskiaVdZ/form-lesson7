@@ -1,0 +1,43 @@
+body {
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Inter', sans-serif;
+    color: black;
+    margin: 0 auto;
+    max-width: 1550px;
+    max-height: 1080px;
+    width: 100%;
+    height: 100%;
+    background-color: white
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    justify-content: space-between;
+    max-width: 1920px;
+    max-height: 1080x;
+    width: 100%;
+    background-color: #b8e6fca9;
+    
+}
+
+
+.textblockOne {
+    font-family: 'Inter', sans-serif;
+    font-size: 55px;
+    font-weight: 600;
+    max-width: 700px;
+    max-height: 330px;
+    width: 100%;
+    margin-top: 180px;
+    padding-left: 70px;
+    padding-bottom: 70px;
+}
+
+.imageOne {
+    max-height: 900px;
+   height: 100%;
+}
+
+
