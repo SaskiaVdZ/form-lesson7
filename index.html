@@ -13,53 +13,22 @@
 
 <body>
     <div class="container">
-        <div class="textblockOne">Code-tastic! <br>a questionaire about your coding routine</div>
-        <div class="imageOne"><img src="img/Blomma.png"></div>
-        <div class="imageTwo"><img src="img/Pattern.png"></div>
-       
+        <div class="label">Sign Up</div>
+        <div class="textblockOne">Please fill in this form to create an account</div>
     
-    </div>
-
-    <form>
-        <p>How long have you been coding?</p>
-            <input type="text">
-
-        <p>What is your favourite time to code?</p>
-            <input type="radio">
-            <label>mornings</label><br>
-            <input type="radio">
-            <label>afternoons</label><br>
-            <input type="radio">
-            <label>evenings</label><br>
-            <input type="radio">
-            <label>night</label><br>
-            <input type="radio">
-            <label>never</label><br>
-
-        <label for="place">What is your favourite place to code?</label>
-            <select id="place" name="place">
-            <option value="desk">At a desk</option>
-            <option value="kitchen">In the kitchen</option>
-            <option value="sofa">On the sofa</option>
-            <option value="bed<">In bed</option>
-            <option value="outside">Outside somewhere</option>
-            <option value="coffeeshop">In a coffee shop</option>
-            </select>
-        
-        
-        <p>What is your favourite thing to do when having a break from coding?</p>
-            <input type="checkbox"><label>gardening</label><br>
-            <input type="checkbox"><label>dancing</label><br>
-            <input type="checkbox"><label>socialising</label><br>
-            <input type="checkbox"><label>sleeping</label><br>
-            <input type="checkbox"><label>meditating</label><br>
-            <input type="checkbox"><label>drink coffee</label><br>
-            <input type="checkbox"><label>play with my pet</label><br>
-            <input type="checkbox"><label>other</label><br>
-            <input type="text">
-
-    </form>
-   
+        <form class="form">
+            <div class="container">
+                <label for="text">Name</label>
+                <input type="text" placeholder=" Enter your name here" required><br>
+                <label for="email">Email</label>
+                <input type="email" placeholder=" Enter your email here" required min-length="8"><br>
+                <label for="password">Password</label>
+                <input type="password" placeholder=" Enter your password here" required min-length="8"><br>
+                <button type="submit">Submit</button>
+            
+        </form>
+      
+    </div> 
     
 </body>
 </html>
